@@ -1,0 +1,209 @@
+body, html{
+  margin: 0px;
+  height: 100%;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+  float: right;
+   
+  
+}
+.iconic{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  
+}
+nav{
+  display: flex;
+  background-color: light gray;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0px 5%;
+}
+nav ul{
+  display: flex;
+}
+nav ul li a{
+  margin: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 20px;
+}
+.logo{
+  font-family:'Special Elite', cursive;
+  color: rgb(134, 17, 17);
+  font-size: 22px;
+}
+.bg-image{
+  background-image: url('photo.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.img-text{
+  border: 3px solid #f1f1f1;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h1{
+  font-family:'Montserrat', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+.men-product{
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0;
+}
+.men-fashion{
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+.product-container{
+  display: flex;
+  margin-left: 5px;
+}
+.product-card1,.product-card2,.product-card3,.product-card4{
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 300px;
+  height: 700px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.text-container{
+  padding: 2px 16px;
+}
+.women-product{
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0;
+}
+.Women-fashion{
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.Winter-fashion{
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+.slide-container{
+  max-width: 780px;
+  max-height: 100px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.slide-inner{
+  min-height: 60vh;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.slide-holder .slide-inner{
+  background: url(pexels-dmitriy-ganin.jpg) center/cover no-repeat;
+}
+.slide-holder:nth-child(2) .slide-inner{
+  background: url(pexels-pavel-danilyuk.jpg) center/cover no-repeat;
+}
+.slide-holder:nth-child(3) .slide-inner{
+  background: url(pexels-redcoat.jpg) center/cover no-repeat;
+}
+.slide-holder:nth-child(4) .slide-inner{
+  background: url(pexels-whitecoat.jpg) center/cover no-repeat;
+}
+.slide-holder:nth-child(5) .slide-inner{
+  background: url(pexels-cottonbro.jpg) center/cover no-repeat;
+}
+.slide-holder{
+  padding: 15px;
+}
+.slide-holder:focus{
+   outline: none;
+}
+
+.slide-content{
+  max-width: 600px;
+  width: 100%;
+  background-color:  rgb(255, 255, 255 / 70%);
+  color: #a50707;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  border-radius: 5px 0 0 5px;
+}
+span.arrow{
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: url(aiga_right_arrow.svg);
+  z-index: 1;
+  top: 45%;
+  cursor: pointer;
+  opacity: 1; 
+  transition: .3s ease;
+}
+.slider:hover span.arrow{
+   opacity: .5;
+}
+
+span.arrow.next{
+  right: -15px;
+}
+span.arrow.prev{
+  left: -15px;
+  transform: rotate(180deg);
+}
+
+.slider{
+  position: relative;
+  padding: 0 30px;
+}
+
+.black-text{
+  color: black;
+}
+.w1{
+  color: black;
+}
+.white-text, .w2, .sale-tag{
+  color: #f1f1f1;
+}
+
+ 
